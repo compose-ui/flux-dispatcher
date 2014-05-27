@@ -1,0 +1,9 @@
+{
+  "name": "flux-dispatcher",
+  "version": "0.0.1",
+  "repo": "compose-ui/flux-dispatcher",
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js"
+}

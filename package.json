@@ -1,0 +1,29 @@
+{
+  "name": "compose-flux-dispatcher",
+  "version": "0.0.1",
+  "description": "A basic Dispatcher based on Facebook's Flux architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compose-ui/flux-dispatcher.git"
+  },
+  "keywords": [
+    "flux",
+    "dispatcher",
+    "facebook",
+    "compose"
+  ],
+  "author": "taterbase",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compose-ui/flux-dispatcher/issues"
+  },
+  "homepage": "https://github.com/compose-ui/flux-dispatcher",
+  "devDependencies": {
+    "should": "^3.3.2",
+    "mocha": "^1.19.0"
+  }
+}
