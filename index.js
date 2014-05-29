@@ -11,6 +11,6 @@ Dispatcher.prototype.register = function(cb) {
 
 Dispatcher.prototype.dispatch = function(payload) {
   _callbacks.forEach(function(cb) {
-    cb.apply(cb, payload)
+    cb.call(cb, payload)
   })
 }
